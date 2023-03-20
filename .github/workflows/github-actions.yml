@@ -49,7 +49,7 @@ jobs:
             --source "unit-tests" \
             --resources resources.json \
             --results results/*.xml \
-            -- npm run test-ci
+            -- npm run test
         env:
           TESTMO_URL: ${{ secrets.TESTMO_URL }}
           TESTMO_TOKEN: ${{ secrets.TESTMO_TOKEN }}
